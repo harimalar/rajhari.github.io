@@ -1,6 +1,6 @@
 # ScreenNestly Security Policy
 
-Updated November 14, 2026 · Maintainer: Hari Rajagopalan
+Updated November 21, 2026 · Maintainer: Hari Rajagopalan
 
 ## Report privately
 
@@ -12,12 +12,12 @@ Reports are reviewed and coordinated privately. No fixed response deadline, boun
 
 ## Security model and limits
 
-ScreenNestly uses the macOS app sandbox, user-selected folder access, and system-managed capture and Accessibility permissions. OCR runs on the device. The app has no account, cloud service, remote-control endpoint, advertising, analytics, or automatic image upload.
+ScreenNestly uses the macOS app sandbox, user-selected folder access, and system-managed capture, optional microphone, and optional Accessibility permissions. OCR runs on the device. The app has no account, cloud service, remote-control endpoint, advertising, analytics, or automatic capture upload.
 
-The local library includes original images and recognized text as well as edited renders. It is not a separately encrypted or password-protected vault. Protect your Mac account and backups; use macOS security features such as FileVault where appropriate. Solid Redact affects the shared render, while the original remains locally editable.
+The local library includes MP4 recordings (and enabled audio), original images and recognized text as well as edited renders. Audio options start off for every recording. Failed recordings may remain locally for recovery. It is not a separately encrypted or password-protected vault. Protect your Mac account and backups; use macOS security features such as FileVault where appropriate. Solid Redact affects the shared render, while the original remains locally editable.
 
 Sharing through the clipboard, drag-and-drop, exports, email, or folders managed by another service moves copies outside the app's control. Keep settings backups private: they can contain paths and folder-access bookmarks. See the [Privacy Policy](PRIVACY.md) for storage, temporary copies, retention, and deletion details.
 
 ## Dependency and release checks
 
-ScreenNestly uses Apple's system frameworks and the pinned KeyboardShortcuts package. Its MIT notice is included in the app. Release checks cover image persistence, file-operation rollback, redaction output, transfer snapshots, and scrolling alignment. Passing those checks does not eliminate all security risks. Distribution signing and App Store review must be completed before a public App Store release.
+ScreenNestly uses Apple's system frameworks and the pinned KeyboardShortcuts package. Its MIT notice is included in the app. Release checks cover image persistence, file-operation rollback, redaction output, transfer snapshots, scrolling alignment, and recording persistence and lifecycle behavior. Passing those checks does not eliminate all security risks. Distribution signing and App Store review must be completed before a public App Store release.

@@ -1,6 +1,6 @@
 # Warranty and File-Operation Disclaimer
 
-Effective November 14, 2026 · Hari Rajagopalan · [rajhari@gmail.com](mailto:rajhari@gmail.com)
+Effective November 21, 2026 · Hari Rajagopalan · [rajhari@gmail.com](mailto:rajhari@gmail.com)
 
 ## Warranty and mandatory rights
 
@@ -10,13 +10,13 @@ This disclaimer does not replace [Apple's Standard EULA](https://www.apple.com/l
 
 ## Protect your files
 
-Auto-Rules move or rename matching files. Incorrect destinations, permission changes, unavailable volumes, collisions, and external changes can prevent an operation or its reversal. Inspect rules before enabling them and verify important results. Batch Delete sends library-owned originals and renders to Trash; separately exported project files remain. Reset App Settings clears organization rules and history and is not a screenshot-backup or library-erasure feature.
+Auto-Rules move or rename matching files. Incorrect destinations, permission changes, unavailable volumes, collisions, and external changes can prevent an operation or its reversal. Inspect rules before enabling them and verify important results. Batch Delete sends library-owned originals, renders, recordings, and thumbnails to Trash; separately exported project files remain. Reset App Settings clears organization rules and history and is not a screenshot-backup or library-erasure feature.
 
-Maintain independent backups of your library and project folders, for example with Time Machine. **The built-in Save Backup feature saves organization rules and settings only; it does not contain screenshots.** Neither undo nor Trash is a guaranteed recovery system, and there is no ScreenNestly remote recovery service.
+Maintain independent backups of your library and project folders, for example with Time Machine. **The built-in Save Backup feature saves organization rules and settings only; it does not contain screenshots or recordings.** Neither undo nor Trash is a guaranteed recovery system, and there is no ScreenNestly remote recovery service.
 
 ## Review capture and sharing results
 
-Scrolling captures and OCR can be incomplete or inaccurate. Verify the full saved image and recognized text. Blur and pixelation are not guaranteed irreversible redaction; use opaque Redact for sensitive content and inspect the exported image. The editable library retains originals. Clipboard contents, drag copies, exports, and recipient-app copies must be managed separately.
+Screen recordings may be incomplete or unplayable after an interruption; verify the saved video and any audio before sharing. Scrolling captures and OCR can be incomplete or inaccurate. Verify the full saved image and recognized text. Blur and pixelation are not guaranteed irreversible redaction; use opaque Redact for sensitive content and inspect the exported image. The editable library retains originals. Clipboard contents, drag copies, exports, and recipient-app copies must be managed separately.
 
 Shortcut conflicts, changes you make to macOS keyboard settings, other apps' behavior, and externally managed folder or backup services can affect the workflow. ScreenNestly cannot control these systems or guarantee their compatibility.
 

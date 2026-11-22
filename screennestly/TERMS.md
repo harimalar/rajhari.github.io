@@ -1,6 +1,6 @@
 # ScreenNestly Terms of Use
 
-Effective November 14, 2026 · Publisher: Hari Rajagopalan · Contact: [rajhari@gmail.com](mailto:rajhari@gmail.com)
+Effective November 21, 2026 · Publisher: Hari Rajagopalan · Contact: [rajhari@gmail.com](mailto:rajhari@gmail.com)
 
 ## License and App Store purchases
 
@@ -12,21 +12,23 @@ For any future authorized direct distribution, the license permits installation 
 
 ## Your captures and lawful use
 
-You retain your rights in your own content. ScreenNestly claims no ownership of screenshots or annotations. You are responsible for having permission to capture, store, edit, and share content, and for respecting copyright, confidentiality, workplace rules, and applicable privacy law. Do not use the app for unlawful surveillance or unauthorized access.
+You retain your rights in your own content. ScreenNestly claims no ownership of screenshots, recordings, or annotations. You are responsible for having permission to capture, store, edit, and share content, and for respecting copyright, confidentiality, workplace rules, and applicable privacy law. Do not use the app for unlawful surveillance or unauthorized access.
 
 Do not redistribute or resell unauthorized copies of the app, remove proprietary notices, or circumvent license restrictions. Reverse engineering restrictions apply only to the extent permitted by law and the applicable license; they do not restrict rights expressly granted by an included open-source component's license. KeyboardShortcuts remains subject to its MIT license, included with the app.
 
 ## Permissions and file operations
 
-Screen capture needs the corresponding macOS permission. Auto-Scroll needs optional event-posting/Accessibility access. Folder watching and project exports use folders you select. You can revoke permissions in macOS settings; affected features may then stop working.
+Screen capture needs the corresponding macOS permission. Screen recording requires macOS 15 or later; microphone access is optional and used only when you enable it. You are responsible for any consent required to record voices or other content. Auto-Scroll needs optional event-posting/Accessibility access. Folder watching and project exports use folders you select. You can revoke permissions in macOS settings; affected features may then stop working.
 
-Auto-Rules can move or rename matching files in the watched folder. Test rules and review their order and destinations before enabling automation. Batch Delete moves library-owned images to Trash; project exports and external originals are separate. Reset App Settings clears organization settings and history, not the screenshot library. Undo and recovery are not a substitute for backups and may be limited by changed, missing, or inaccessible files.
+Auto-Rules can move or rename matching files in the watched folder. Test rules and review their order and destinations before enabling automation. Batch Delete moves library-owned images, recordings, and thumbnails to Trash; project exports and external originals are separate. Reset App Settings clears organization settings and history, not the capture library. Undo and recovery are not a substitute for backups and may be limited by changed, missing, or inaccessible files.
 
-Keep separate backups of important images and project folders. **Save Backup covers organization rules and settings, not screenshots or the library.** See the [Privacy Policy](PRIVACY.md) for local storage, retained originals, and temporary transfer copies.
+Keep separate backups of important images, recordings, and project folders. **Save Backup covers organization rules and settings, not screenshots, recordings, or the library.** See the [Privacy Policy](PRIVACY.md) for local storage, retained originals, and temporary transfer copies.
 
 ## Capture, editing, and compatibility
 
 Scrolling capture depends on overlapping visible content. Animated pages, sticky elements, unsupported applications, fast jumps, or display changes may interrupt alignment or produce an incomplete result. Check the saved image before relying on it. OCR may misread text. Blur and pixelation are visual effects and do not guarantee removal of sensitive information; use solid Redact and inspect the exported copy. Editable originals remain in the library.
+
+Screen recordings are local MP4 files. An interrupted or failed recording can be incomplete or unplayable; verify the saved video and enabled audio before relying on it. This version does not edit or trim videos.
 
 Shortcuts can conflict with macOS or other apps. You choose any changes to system shortcuts. Export and drag-and-drop depend on the receiving application's capabilities. No compatibility with every application, document, or monitor arrangement is promised.
 

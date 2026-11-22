@@ -8,10 +8,11 @@ The first time you open ScreenNestly, a short guide walks you through setup. You
 2. Open **System Settings → Privacy & Security → Screen & System Audio Recording**. Enable **ScreenNestly** and approve macOS’s prompt. If macOS asks you to quit and reopen, your guide step is remembered.
 3. Return to ScreenNestly. The status changes to **Enabled**; **Check Again** refreshes it manually.
 
-ScreenNestly captures still images and does not record audio. You can import images without screen-capture permission. macOS wording can vary; see [Apple’s permission guide](https://support.apple.com/guide/mac-help/mchld6aa7d23/mac).
+ScreenNestly captures screenshots and, on macOS 15 or later, MP4 screen recordings. System audio and microphone are off by default for each recording. You can import images without screen-capture permission. macOS wording can vary; see [Apple’s permission guide](https://support.apple.com/guide/mac-help/mchld6aa7d23/mac).
 
-Two permissions are optional:
+These permissions are optional:
 
+- **Microphone** lets a recording include your voice when you explicitly switch Microphone on. Declining it leaves silent/system-audio recording available.
 - **Accessibility** allows Auto-Scroll to send scroll gestures. Enable it from the Permissions page when you want Auto-Scroll. Manual scrolling does not need it.
 - **Folder access** lets Auto-Rules watch a folder. Use **Choose Folder…** to select it. ScreenNestly’s own captures already save in Inbox.
 
@@ -68,3 +69,15 @@ If no new section appears, check that the page is moving inside the selected are
 Open Settings with **⌘,** to change appearance, capture shortcuts, or Quick Overlay behavior. The guide remains available through **Help** whenever you need it.
 
 *App screenshots use sample content. Light and dark versions are bundled in the app; the permission-page visual is a labeled illustration.*
+
+## Record your screen (macOS 15+)
+
+![Recording setup with optional audio](GuideRecording-light.png)
+
+1. Choose **Record Screen** in the main window, menu-bar dropdown, or Capture menu.
+2. Choose **Area**, **Window**, or **Full Screen**. Turn **System Audio** and/or **Microphone** on only if you want them included. The microphone uses the macOS default input; audio is off for each new recording. Choose whether to include the cursor.
+3. Click **Continue**. Select an area or window when prompted. A three-second countdown lets you prepare; **Cancel** stops the countdown without making a recording.
+4. The floating control shows a red indicator and elapsed time. Click **Stop** there, in the library, or in the Capture menu. Keep the app open while **Saving recording…** finishes.
+5. The MP4 saves in Inbox. Double-click its thumbnail or choose **Play** to watch it in the main window. Use **Copy Video**, **Drag Video**, **Save Video…**, or **File to Project** to share/organize it. Recipients must accept MP4 files.
+
+Recordings use H.264 at up to 30 fps and fit within 3840 × 2160 pixels while preserving aspect ratio. This version records video; screenshot markup, OCR, pinning, trimming, and video editing are not applied to recordings. Quitting during recording stops and finalizes it before the app exits. If saving fails, the app reports the preserved file's location under its local RecordingsInProgress folder. An abrupt crash or power loss can leave an unplayable unfinished MP4.

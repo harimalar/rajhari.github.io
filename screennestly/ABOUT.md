@@ -1,10 +1,11 @@
 # About ScreenNestly
 
-**A home for screenshots.** ScreenNestly is a native macOS utility by Hari Rajagopalan for capturing, annotating, sharing, and organizing images on your Mac. No account or ScreenNestly cloud service is involved.
+**A home for screenshots.** ScreenNestly is a native macOS utility by Hari Rajagopalan for capturing screenshots, recording your screen, annotating images, and organizing visual references on your Mac. No account or ScreenNestly cloud service is involved.
 
 ## What it does
 
 - Area, window, full-screen, and scrolling capture, with manual scrolling or optional Auto-Scroll.
+- Local MP4 recordings of an area, window, or display on macOS 15 or later, with optional system audio and microphone. Both audio options start off for every recording.
 - A Quick Access corner preview for copying, editing, pinning, and dragging to apps that accept images or files.
 - Arrows, shapes, text, numbered steps, highlight, solid redaction, manual Blur and Pixelate, cropping, and decorative export backgrounds.
 - Pinned screenshots above other windows, with adjustable opacity.
@@ -12,13 +13,13 @@
 - Multiple-image import and batch move, favorite, and delete actions.
 - Optional folder watching with Auto-Rules, plus a menu-bar dropdown and first-run illustrated guide.
 
-ScreenNestly does not record video or audio. Blur and Pixelate are tools you apply to a selected region; automatic face/password detection is not included. Scrolling capture needs overlapping visible content and may pause on dynamic pages. Review the output before sharing it.
+Screen recordings support local playback, copying, dragging, export, and project organization. Video editing, trimming, video OCR, and pinning videos are not included. Blur and Pixelate are tools you apply to a selected region; automatic face/password detection is not included. Scrolling capture needs overlapping visible content and may pause on dynamic pages. Review the output before sharing it.
 
 ## Requirements and release status
 
-The project targets **macOS 14 or later**. Local development builds have been tested on an Apple Silicon Mac. Intel hardware and a physical second monitor have not yet been verified; these remain release-validation items. A compilation target is not a claim of testing on every supported OS or device.
+The project targets **macOS 14 or later** for screenshots; **screen recording requires macOS 15 or later**. Local development builds have been tested on an Apple Silicon Mac. Intel hardware and a physical second monitor have not yet been verified; these remain release-validation items. A compilation target is not a claim of testing on every supported OS or device.
 
-The App Store listing is being prepared. No public release or Apple approval is claimed here. The planned US launch price is **$9.99 as a one-time purchase**; the live storefront price, taxes, and regional equivalents apply when available.
+An updated build is being prepared for App Store review. No public release or Apple approval is claimed here. The planned US launch price is **$9.99 as a one-time purchase**; the live storefront price, taxes, and regional equivalents apply when available.
 
 ## Help and contact
 

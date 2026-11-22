@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Getting started with ScreenNestly — ScreenNestly, a local macOS screenshot app by Hari Rajagopalan."><title>Getting started with ScreenNestly · ScreenNestly</title><link rel="stylesheet" href="styles.css"><link rel="icon" href="icon.png"></head><body><header><a class="brand" href="index.html"><img src="icon.png" width="44" height="44" alt="">ScreenNestly</a><span class="tag">A home for screenshots</span></header><main><nav aria-label="Documentation"><a href="index.html">Home</a><a href="getting-started.html">Getting Started</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="security.html">Security</a></nav><article><h1>Getting started with ScreenNestly</h1>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Getting started with ScreenNestly — ScreenNestly, a local macOS screenshot and recording app by Hari Rajagopalan."><title>Getting started with ScreenNestly · ScreenNestly</title><link rel="stylesheet" href="styles.css"><link rel="icon" href="icon.png"></head><body><header><a class="brand" href="index.html"><img src="icon.png" width="44" height="44" alt="">ScreenNestly</a><span class="tag">A home for screenshots</span></header><main><nav aria-label="Documentation"><a href="index.html">Home</a><a href="getting-started.html">Getting Started</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="security.html">Security</a></nav><article><h1>Getting started with ScreenNestly</h1>
 <p>The first time you open ScreenNestly, a short guide walks you through setup. You can choose <strong>Set Up Later</strong> and reopen it anytime from <strong>Help → Getting Started…</strong>, including Help in the menu-bar dropdown.</p>
 <h2>1. Allow screen capture</h2>
 <ol>
@@ -7,9 +7,10 @@
 <li>Open <strong>System Settings → Privacy &amp; Security → Screen &amp; System Audio Recording</strong>. Enable <strong>ScreenNestly</strong> and approve macOS’s prompt. If macOS asks you to quit and reopen, your guide step is remembered.</li>
 <li>Return to ScreenNestly. The status changes to <strong>Enabled</strong>; <strong>Check Again</strong> refreshes it manually.</li>
 </ol>
-<p>ScreenNestly captures still images and does not record audio. You can import images without screen-capture permission. macOS wording can vary; see <a href="https://support.apple.com/guide/mac-help/mchld6aa7d23/mac">Apple’s permission guide</a>.</p>
-<p>Two permissions are optional:</p>
+<p>ScreenNestly captures screenshots and, on macOS 15 or later, MP4 screen recordings. System audio and microphone are off by default for each recording. You can import images without screen-capture permission. macOS wording can vary; see <a href="https://support.apple.com/guide/mac-help/mchld6aa7d23/mac">Apple’s permission guide</a>.</p>
+<p>These permissions are optional:</p>
 <ul>
+<li><strong>Microphone</strong> lets a recording include your voice when you explicitly switch Microphone on. Declining it leaves silent/system-audio recording available.</li>
 <li><strong>Accessibility</strong> allows Auto-Scroll to send scroll gestures. Enable it from the Permissions page when you want Auto-Scroll. Manual scrolling does not need it.</li>
 <li><strong>Folder access</strong> lets Auto-Rules watch a folder. Use <strong>Choose Folder…</strong> to select it. ScreenNestly’s own captures already save in Inbox.</li>
 </ul>
@@ -53,4 +54,14 @@
 <li><strong>Add Project</strong> connects a folder. Set up automatic organization in <strong>Settings → Auto-Rules</strong>.</li>
 </ul>
 <p>Open Settings with <strong>⌘,</strong> to change appearance, capture shortcuts, or Quick Overlay behavior. The guide remains available through <strong>Help</strong> whenever you need it.</p>
-<p><em>App screenshots use sample content. Light and dark versions are bundled in the app; the permission-page visual is a labeled illustration.</em></p></article></main><footer>© 2026 Hari Rajagopalan · <a href="mailto:rajhari@gmail.com">rajhari@gmail.com</a><br>Local capture and organization. No account or automatic uploads.</footer></body></html>
+<p><em>App screenshots use sample content. Light and dark versions are bundled in the app; the permission-page visual is a labeled illustration.</em></p>
+<h2>Record your screen (macOS 15+)</h2>
+<p><img src="GuideRecording-light.png" alt="Recording setup with optional audio"></p>
+<ol>
+<li>Choose <strong>Record Screen</strong> in the main window, menu-bar dropdown, or Capture menu.</li>
+<li>Choose <strong>Area</strong>, <strong>Window</strong>, or <strong>Full Screen</strong>. Turn <strong>System Audio</strong> and/or <strong>Microphone</strong> on only if you want them included. The microphone uses the macOS default input; audio is off for each new recording. Choose whether to include the cursor.</li>
+<li>Click <strong>Continue</strong>. Select an area or window when prompted. A three-second countdown lets you prepare; <strong>Cancel</strong> stops the countdown without making a recording.</li>
+<li>The floating control shows a red indicator and elapsed time. Click <strong>Stop</strong> there, in the library, or in the Capture menu. Keep the app open while <strong>Saving recording…</strong> finishes.</li>
+<li>The MP4 saves in Inbox. Double-click its thumbnail or choose <strong>Play</strong> to watch it in the main window. Use <strong>Copy Video</strong>, <strong>Drag Video</strong>, <strong>Save Video…</strong>, or <strong>File to Project</strong> to share/organize it. Recipients must accept MP4 files.</li>
+</ol>
+<p>Recordings use H.264 at up to 30 fps and fit within 3840 × 2160 pixels while preserving aspect ratio. This version records video; screenshot markup, OCR, pinning, trimming, and video editing are not applied to recordings. Quitting during recording stops and finalizes it before the app exits. If saving fails, the app reports the preserved file's location under its local RecordingsInProgress folder. An abrupt crash or power loss can leave an unplayable unfinished MP4.</p></article></main><footer>© 2026 Hari Rajagopalan · <a href="mailto:rajhari@gmail.com">rajhari@gmail.com</a><br>Local capture and organization. No account or automatic uploads.</footer></body></html>
