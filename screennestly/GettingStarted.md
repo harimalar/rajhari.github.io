@@ -13,7 +13,6 @@ ScreenNestly captures screenshots and, on macOS 15 or later, MP4 screen recordin
 These permissions are optional:
 
 - **Microphone** lets a recording include your voice when you explicitly switch Microphone on. Declining it leaves silent/system-audio recording available.
-- **Accessibility** allows Auto-Scroll to send scroll gestures. Enable it from the Permissions page when you want Auto-Scroll. Manual scrolling does not need it.
 - **Folder access** lets Auto-Rules watch a folder. Use **Choose Folder…** to select it. ScreenNestly’s own captures already save in Inbox.
 
 ## 2. Take your first screenshot
@@ -49,12 +48,12 @@ Choose arrows, text, numbered steps, Blur, Pixelate, or Redact. Edits save autom
 
 1. Bring your page or document to the front. Choose **Scrolling Capture** from the menu-bar dropdown.
 2. Select the moving content below fixed headers and toolbars. Corner brackets show what will be captured.
-3. Click **Start Auto-Scroll**, or scroll slowly downward yourself. Keep the selected window uncovered and watch the section count grow.
+3. Scroll slowly downward with your mouse or trackpad, pausing between sections. Keep the selected window uncovered and watch the section count grow.
 4. Click **Finish**. In the saved preview, use **Fit Width** and scroll to read the long image.
 
 ![Scrolling capture controls](GuideScrolling-light.png)
 
-If no new section appears, check that the page is moving inside the selected area. If capture pauses because it cannot match an overlap, scroll back slowly toward the last captured section and pause. Auto-Scroll needs Accessibility access; check **Help → Permissions…**. Before a second section is captured, **Save One Image** saves a normal screenshot.
+If no new section appears, check that the page is moving inside the selected area. If capture pauses because it cannot match an overlap, scroll back slowly toward the last captured section and pause. Finish becomes available after at least two sections are captured. Use ordinary Area Capture if you need only one image.
 
 ## 5. Keep your library organized
 

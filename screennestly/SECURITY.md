@@ -1,6 +1,6 @@
 # ScreenNestly Security Policy
 
-Updated November 21, 2026 · Maintainer: Hari Rajagopalan
+Updated November 25, 2026 · Maintainer: Hari Rajagopalan
 
 ## Report privately
 
@@ -12,7 +12,7 @@ Reports are reviewed and coordinated privately. No fixed response deadline, boun
 
 ## Security model and limits
 
-ScreenNestly uses the macOS app sandbox, user-selected folder access, and system-managed capture, optional microphone, and optional Accessibility permissions. OCR runs on the device. The app has no account, cloud service, remote-control endpoint, advertising, analytics, or automatic capture upload.
+ScreenNestly uses the macOS app sandbox, user-selected folder access, and system-managed capture and optional microphone permissions. OCR runs on the device. The app has no account, cloud service, remote-control endpoint, advertising, analytics, or automatic capture upload.
 
 The local library includes MP4 recordings (and enabled audio), original images and recognized text as well as edited renders. Audio options start off for every recording. Failed recordings may remain locally for recovery. It is not a separately encrypted or password-protected vault. Protect your Mac account and backups; use macOS security features such as FileVault where appropriate. Solid Redact affects the shared render, while the original remains locally editable.
 

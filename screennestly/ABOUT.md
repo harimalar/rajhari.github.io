@@ -4,7 +4,7 @@
 
 ## What it does
 
-- Area, window, full-screen, and scrolling capture, with manual scrolling or optional Auto-Scroll.
+- Area, window, full-screen, and scrolling capture, with manual scrolling.
 - Local MP4 recordings of an area, window, or display on macOS 15 or later, with optional system audio and microphone. Both audio options start off for every recording.
 - A Quick Access corner preview for copying, editing, pinning, and dragging to apps that accept images or files.
 - Arrows, shapes, text, numbered steps, highlight, solid redaction, manual Blur and Pixelate, cropping, and decorative export backgrounds.

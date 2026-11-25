@@ -1,6 +1,6 @@
 # ScreenNestly Privacy Policy
 
-Updated November 21, 2026 · Publisher: Hari Rajagopalan · Contact: [rajhari@gmail.com](mailto:rajhari@gmail.com)
+Updated November 25, 2026 · Publisher: Hari Rajagopalan · Contact: [rajhari@gmail.com](mailto:rajhari@gmail.com)
 
 ## A local capture app
 
@@ -18,7 +18,7 @@ OCR uses Apple's Vision framework on your device. Images and recognized text are
 
 - **Screen Recording / Screen & System Audio Recording:** lets ScreenNestly capture a selected area, window, display, or scrolling sequence, and record screen video on macOS 15 or later. System audio is recorded only when you switch System Audio on for a recording. Capture starts when you request it; scrolling capture continues until you finish, cancel, or a limit stops it.
 - **Microphone:** optional permission records the default microphone only when you enable Microphone for a recording. System audio and microphone start off for each recording. Audio is saved in the local MP4; it is not uploaded or transcribed.
-- **Accessibility / event posting:** optional access lets Auto-Scroll send scrolling gestures to the selected application. Manual scrolling works without this access. Global shortcuts use macOS hotkey registration; they do not require general keystroke monitoring.
+- **Global shortcuts:** use macOS hotkey registration; they do not require general keystroke monitoring. ScreenNestly does not request Accessibility or event-posting access. Scrolling capture follows your manual mouse or trackpad scrolling.
 - **Files and folders:** user-selected folder access lets Auto-Rules watch, move, and rename matching images, and lets projects receive image or recording exports. Folder watching is optional and can remain active while the menu-bar app is running.
 - **Notifications and login item:** optional settings provide local organization notifications and launch the app when you sign in.
 

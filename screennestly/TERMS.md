@@ -1,6 +1,6 @@
 # ScreenNestly Terms of Use
 
-Effective November 21, 2026 · Publisher: Hari Rajagopalan · Contact: [rajhari@gmail.com](mailto:rajhari@gmail.com)
+Effective November 25, 2026 · Publisher: Hari Rajagopalan · Contact: [rajhari@gmail.com](mailto:rajhari@gmail.com)
 
 ## License and App Store purchases
 
@@ -18,7 +18,7 @@ Do not redistribute or resell unauthorized copies of the app, remove proprietary
 
 ## Permissions and file operations
 
-Screen capture needs the corresponding macOS permission. Screen recording requires macOS 15 or later; microphone access is optional and used only when you enable it. You are responsible for any consent required to record voices or other content. Auto-Scroll needs optional event-posting/Accessibility access. Folder watching and project exports use folders you select. You can revoke permissions in macOS settings; affected features may then stop working.
+Screen capture needs the corresponding macOS permission. Screen recording requires macOS 15 or later; microphone access is optional and used only when you enable it. You are responsible for any consent required to record voices or other content. Folder watching and project exports use folders you select. You can revoke permissions in macOS settings; affected features may then stop working.
 
 Auto-Rules can move or rename matching files in the watched folder. Test rules and review their order and destinations before enabling automation. Batch Delete moves library-owned images, recordings, and thumbnails to Trash; project exports and external originals are separate. Reset App Settings clears organization settings and history, not the capture library. Undo and recovery are not a substitute for backups and may be limited by changed, missing, or inaccessible files.
 
